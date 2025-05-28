@@ -41,5 +41,13 @@ public class CustomerController {
         service.delete(id);
         return "redirect:/crm";
     }
+    
+
+
+@GetMapping("/name")
+    public String name()
+    {
+    	return "Gayu";
+    }
 }
 
